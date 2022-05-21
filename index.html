@@ -31,14 +31,14 @@
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div>
-                    <label for="address">Your Street Address</label>
-                    <input type="text" id="address" name="address">
+                    <label for="address">Your Street Address<span class="required-field">*</span></label>
+                    <input type="text" id="address" name="address" required>
                 </div>
                 <div>
-                    <label for="city">Your City</label>
-                    <input type="text" id="city" name="city">
-                    <label for="state">Your State</label>
-                    <input list="state-list" id="state" name="state">
+                    <label for="city">Your City<span class="required-field">*</span></label>
+                    <input type="text" id="city" name="city" required>
+                    <label for="state">Your State<span class="required-field">*</span></label>
+                    <input list="state-list" id="state" name="state" required>
                     <datalist id="state-list">
                         <option value="AK">Alaska</option>
                         <option value="AL">Alabama</option>
@@ -90,8 +90,8 @@
                         <option value="WV">West Virginia</option>
                         <option value="WY">Wyoming</option>
                     </datalist>
-                    <label for="zip">Your Zipcode</label>
-                    <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="5-Digit US ZIP Code">
+                    <label for="zip">Your Zipcode<span class="required-field">*</span></label>
+                    <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="5-Digit US ZIP Code" required>
                 
                 </div>
             </fieldset>
